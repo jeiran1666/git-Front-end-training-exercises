@@ -18,7 +18,7 @@ carousel-item active: یک اسلاید فعال در کاروسل.
 py-5 bg-light wave-section: یک سکشن با padding عمودی، پس‌زمینه روشن و افکت موج.
 wave wave-top: افکت موجی در بالای سکشن.
 badge bg-info position-absolute m-2: یک نشانه (Badge) با پس‌زمینه آبی و موقعیت مطلق.
-fw-bold: متن با فونت پررنگ (bold).
+fw-bold:  و برحسته متن با فونت پررنگ (bold).
 product-specs collapse: یک بخش جمع‌شونده (collapse) برای مشخصات محصول.
 list-unstyled: لیست بدون استایل پیش‌فرض (حذف نقطه‌های لیست).
 position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger: یک نشانه گرد با پس‌زمینه قرمز در موقعیت مطلق.
