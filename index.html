@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه ژان موبایل | مقایسه و خرید بهترین گوشی‌ها</title>
+    
+    <!-- Bootstrap 5 RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/font/Vazir.woff2">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark t fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../project-bootstrap/images/logo.jpg" alt="لوگو" width="40" height="40" class="d-inline-block align-text-top me-2 logo-transition">
+                 ژان موبایل
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-end bg-primary text-white" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title ">منو</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active te"  href="#home">صفحه اصلی</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle te" href="#" role="button" data-bs-toggle="dropdown">
+                                برندها
+                            </a>
+                            <ul class="dropdown-menu te">
+                                <li><a class="dropdown-item" href="#samsung">سامسونگ</a></li>
+                                <li><a class="dropdown-item" href="#apple">اپل</a></li>
+                                <li><a class="dropdown-item" href="#xiaomi">شیائومی</a></li>
+                                <li><a class="dropdown-item" href="#huawei">نوبیا</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item te">
+                            <a class="nav-link te" href="#newest">جدیدترین‌ها</a>
+                        </li>
+                        <li class="nav-item te">
+                            <a class="nav-link te" href="#best-sellers">پرفروش‌ها</a>
+                        </li>
+                        <li class="nav-item te">
+                            <a class="nav-link te" href="#reviews">نظرات</a>
+                        </li>
+                        <li class="nav-item te">
+                            <a class="nav-link te" href="#news">اخبار</a>
+                        </li>
+                        <li class="nav-item te">
+                            <a class="nav-link te" href="#about">درباره ما</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link te" href="#contact">تماس با ما</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="d-flex mt-3 mt-lg-0">
+                        <a href="#cart" class="btn btn-outline-light position-relative me-2">
+                            <i class="bi bi-cart3"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                2
+                            </span>
+                        </a>
+                        <a href="#login" class="btn btn-light">ورود / ثبت‌نام</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+ 
+
+    <!-- Hero Carousel -->
+    <div id="home" class="carousel slide carousel-fade mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#home" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#home" data-bs-slide-to="2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../project-bootstrap/images/sh3.jpg" class="d-block w-100" alt="اسلاید 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>جدیدترین محصولات</h5>
+                    <p>بهترین گوشی‌های سال 2025 با گارانتی معتبر</p>
+                    <a href="#newest" class="btn btn-primary btn-lg">مشاهده محصولات</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../project-bootstrap/images/sf.jpg" class="d-block w-100" alt="اسلاید 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>تخفیف‌های ویژه</h5>
+                    <p>تا 40% تخفیف برای محصولات منتخب</p>
+                    <a href="#discount" class="btn btn-primary btn-lg">مشاهده تخفیف‌ها</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../project-bootstrap/images/app3.jpg" class="d-block w-100" alt="اسلاید 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>مقایسه هوشمند</h5>
+                    <p>مشخصات فنی گوشی‌ها را مقایسه کنید</p>
+                    <a href="#compare" class="btn btn-primary btn-lg">مقایسه محصولات</a>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Brand Section -->
+    <section id="brands" class="py-5 bg-light wave-section">
+        <div class="wave wave-top"></div>
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">برندهای معتبر</h2>
+                <p class="text-muted">محصولات با کیفیت از بهترین برندهای دنیا</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- برند 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="brand-card h-100 text-center shadow-sm rounded-3 overflow-hidden">
+                        <div class="brand-img-container">
+                            <img src="../project-bootstrap/images/sf.jpg" alt="سامسونگ" class="img-fluid">
+                        </div>
+                        <h5 class="brand-title p-2 mb-0">سامسونگ</h5>
+                    </div>
+                </div>
+                
+                <!-- برند 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="brand-card h-100 text-center shadow-sm rounded-3 overflow-hidden">
+                        <div class="brand-img-container">
+                            <img src="../project-bootstrap/images/app4.jpg" alt="اپل" class="img-fluid">
+                        </div>
+                        <h5 class="brand-title p-2 mb-0">اپل</h5>
+                    </div>
+                </div>
+                <!-- برند 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="brand-card h-100 text-center shadow-sm rounded-3 overflow-hidden">
+                        <div class="brand-img-container">
+                            <img src="../project-bootstrap/images/download.jpg" alt="شیایومی" class="img-fluid">
+                        </div>
+                        <h5 class="brand-title p-2 mb-0">شیائومی</h5>
+                    </div>
+                </div>
+                <!-- برند 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="brand-card h-100 text-center shadow-sm rounded-3 overflow-hidden">
+                        <div class="brand-img-container">
+                            <img src="../project-bootstrap/images/nobia.jpg" alt="نوبیا" class="img-fluid">
+                        </div>
+                        <h5 class="brand-title p-2 mb-0">نوبیا</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-footer">
+            <div class="view-more-btn">
+                <a href="brands.html" class="btn-more">
+                    <i class="bi bi-arrow-left"></i>
+                    مشاهده برندهای بیشتر
+                </a>
+            </div>
+        </div>
+        <div class="wave wave-bottom"></div>
+    </section>
+    
+
+    <!-- Samsung Products -->
+    <section id="samsung" class="py-5  position-relative">
+     
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">محصولات سامسونگ</h2>
+                <p class="text-muted">جدیدترین مدل‌های سری گلکسی</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-danger position-absolute m-2">20% تخفیف</div>
+                        <img src="../project-bootstrap/images/s2.jpg" class="card-img-top product-image" alt="Samsung Galaxy S23 Ultra">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">موجود</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(42)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی سامسونگ گلکسی S23 Ultra</h5>
+                            <p class="card-text text-muted">پردازنده Snapdragon 8 Gen 2 - رم 12GB - حافظه 256GB</p>
+                            <div class="product-specs collapse" id="s23ultra-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.8 اینچی Dynamic AMOLED</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین 200 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 5000 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#s23ultra-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted me-2">35,000,000 تومان</span>
+                                    <span class="fw-bold">28,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-danger position-absolute m-2">15% تخفیف</div>
+                        <img src="../project-bootstrap/images/images (3).jpg" class="card-img-top product-image" alt="Samsung Galaxy S23 Ultra">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">موجود</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(37)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی سامسونگ گلکسی S21 Ultra</h5>
+                            <p class="card-text text-muted">پردازنده Snapdragon 8 Gen 4 - رم 12GB - حافظه 128GB</p>
+                            <div class="product-specs collapse" id="s23ultra-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.8 اینچی Dynamic AMOLED</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین 200 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 5000 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#s23ultra-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted me-2">31,000,000 تومان</span>
+                                    <span class="fw-bold">29,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-danger position-absolute m-2">10% تخفیف</div>
+                        <img src="../project-bootstrap/images/s1.jpg" class="card-img-top product-image" alt="Samsung Galaxy S23 Ultra">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">نا موجود</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <small class="text-muted">(56)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی سامسونگ گلکسی S24fe Ultra</h5>
+                            <p class="card-text text-muted">پردازنده Snapdragon 8 Gen 5 - رم 16GB - حافظه 256GB</p>
+                            <div class="product-specs collapse" id="s23ultra-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.8 اینچی Dynamic AMOLED</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین 350 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 7000 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#s23ultra-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="text-decoration-line-through text-muted me-2">48,000,000 تومان</span>
+                                    <span class="fw-bold">42,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer">
+                        <div class="view-more-btn">
+                            <a href="samsung.html" class="btn-more">
+                                <i class="bi bi-arrow-left"></i>
+                                مشاهده محصولات بیشتر
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+                </div>          
+          
+        </div>
+        <div class="wave wave-bottom"></div>
+
+    </section>
+
+    <!-- Apple Products -->
+    <section id="apple" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">محصولات اپل</h2>
+                <p class="text-muted">جدیدترین آیفون‌های روز دنیا</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-info position-absolute m-2">جدید</div>
+                        <img src="../project-bootstrap/images/app1.jpg" class="card-img-top product-image" alt="iPhone 14 Pro">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">موجود</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <small class="text-muted">(87)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی اپل آیفون 14 پرو</h5>
+                            <p class="card-text text-muted">پردازنده A16 Bionic - رم 6GB - حافظه 128GB</p>
+                            <div class="product-specs collapse" id="iphone14pro-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.1 اینچی Super Retina XDR</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین سه گانه 48+12+12 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 3200 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#iphone14pro-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">42,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-info position-absolute m-2">جدید</div>
+                        <img src="../project-bootstrap/images/app3.jpg" class="card-img-top product-image" alt="iPhone 14 Pro">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">ناموجود </span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <small class="text-muted">(87)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی اپل آیفون 17 پرو</h5>
+                            <p class="card-text text-muted">پردازنده A16 Bionic - رم 6GB - حافظه 128GB</p>
+                            <div class="product-specs collapse" id="iphone14pro-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.1 اینچی Super Retina XDR</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین سه گانه 48+12+12 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 3200 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#iphone14pro-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">210,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-info position-absolute m-2">جدید</div>
+                        <img src="../project-bootstrap/images/app2.jpg" class="card-img-top product-image" alt="iPhone 14 Pro">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">موجود</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <small class="text-muted">(87)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی اپل آیفون 16 پرو</h5>
+                            <p class="card-text text-muted">پردازنده A16 Bionic - رم 6GB - حافظه 128GB</p>
+                            <div class="product-specs collapse" id="iphone14pro-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.1 اینچی Super Retina XDR</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین سه گانه 48+12+12 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 3200 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#iphone14pro-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">120,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100 shadow-sm border-0 overflow-hidden">
+                        <div class="badge bg-info position-absolute m-2">جدید</div>
+                        <img src="../project-bootstrap/images/app1.jpg" class="card-img-top product-image" alt="iPhone 14 Pro">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">موجود</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <small class="text-muted">(87)</small>
+                                </div>
+                            </div>
+                            <h5 class="card-title">گوشی اپل آیفون 16 اولترا پرو</h5>
+                            <p class="card-text text-muted">پردازنده A16 Bionic - رم 6GB - حافظه 128GB</p>
+                            <div class="product-specs collapse" id="iphone14pro-specs">
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> صفحه نمایش 6.1 اینچی Super Retina XDR</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> دوربین سه گانه 48+12+12 مگاپیکسلی</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> باتری 3200 میلی‌آمپر</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i> مقاوم در برابر آب و گرد و غبار (IP68)</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-link p-0 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#iphone14pro-specs">
+                                <small>مشاهده جزئیات <i class="bi bi-chevron-down"></i></small>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">185,000,000 تومان</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary"><i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <div class="view-more-btn">
+                    <a href="apple.html" class="btn-more">
+                        <i class="bi bi-arrow-left"></i>
+                        مشاهده محصولات بیشتر
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- محصولات شیائومی با طراحی متفاوت -->
+<section id="xiaomi" class="py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold text-danger">محصولات شیائومی</h2>
+            <p class="text-muted">گوشی‌های هوشمند با بهترین قیمت</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card-special h-100 shadow-lg border-danger">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        پرفروش
+                    </span>
+                    <img src="../project-bootstrap/images/sh4.jpg" class="card-img-top" alt="Redmi Note 12">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمی نوت 12</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <span class="ms-2">(4.0)</span>
+                        </div>
+                        <p class="card-text">6.67 اینچ - 128GB - 8GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price ">12,500,000 تومان</span>
+
+                            <div class="add-to-cart-btn">
+                                <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card-special h-100 shadow-lg border-danger">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        پرفروش
+                    </span>
+                    <img src="../project-bootstrap/images/sh2.jpg" class="card-img-top" alt="Redmi Note 12">
+                    <div class="card-body">
+                        <h5 class="card-title mt-3">ردمی نوت 12</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <span class="ms-2">(4.0)</span>
+                        </div>
+                        <p class="card-text">6.67 اینچ - 128GB - 8GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price ">12,500,000 تومان</span>
+                            <div class="add-to-cart-btn">
+                                <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card-special h-100 shadow-lg border-danger">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        پرفروش
+                    </span>
+                    <img src="../project-bootstrap/images/sh3.jpg" class="card-img-top" alt="Redmi Note 12">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمی نوت 12</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <span class="ms-2">(4.0)</span>
+                        </div>
+                        <p class="card-text">6.67 اینچ - 128GB - 8GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price  mb-2">12,500,000 تومان</span>
+                           <div class="add-to-cart-btn">
+            <button class="btn btn-primary" title="افزودن به سبد خرید">
+                <i class="bi bi-cart-plus"></i>
+            </button>
+        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card-special h-100 shadow-lg border-danger">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        پرفروش
+                    </span>
+                    <img src="../project-bootstrap/images/sh4.jpg" class="card-img-top" alt="Redmi Note 12">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمی نوت 12</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <span class="ms-2">(4.0)</span>
+                        </div>
+                        <p class="card-text">6.67 اینچ - 128GB - 8GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price ">12,500,000 تومان</span>
+
+                            <div class="add-to-cart-btn">
+                                <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                    <i class="bi bi-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-footer">
+            <div class="view-more-btn">
+                <a href="shiaa.html" class="btn-more">
+                    <i class="bi bi-arrow-left"></i>
+                    مشاهده محصولات بیشتر
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- محصولات نوبیا با طراحی هماهنگ -->
+<section id="nubia" class="py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold text-primary">محصولات نوبیا</h2>
+            <p class="text-muted">گوشی‌های گیمینگ حرفه‌ای با بهترین قیمت</p>
+        </div>
+        
+        <div class="row g-4">
+           
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm border-info border-2">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        ویژه
+                    </span>
+                    <img src="../project-bootstrap/images/nobia1.jpg" class="card-img-top" alt="RedMagic 8">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمیجیک 8 پرو</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                            <span class="ms-2">(4.5)</span>
+                        </div>
+                        <p class="card-text">گیمینگ حرفه‌ای - 256GB - 12GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price  mb-2">18,900,000 تومان</span>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                <i class="bi bi-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm border-info border-2">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        ویژه
+                    </span>
+                    <img src="../project-bootstrap/images/nobia2.jpg" class="card-img-top" alt="RedMagic 8">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمیجیک 8 پرو</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                            <span class="ms-2">(4.5)</span>
+                        </div>
+                        <p class="card-text">گیمینگ حرفه‌ای - 256GB - 12GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price  mb-2">18,900,000 تومان</span>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                <i class="bi bi-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm border-info border-2">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        ویژه
+                    </span>
+                    <img src="../project-bootstrap/images/nobia3.jpg" class="card-img-top" alt="RedMagic 8">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمیجیک 8 پرو</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                            <span class="ms-2">(4.5)</span>
+                        </div>
+                        <p class="card-text">گیمینگ حرفه‌ای - 256GB - 12GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price  mb-2">18,900,000 تومان</span>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                <i class="bi bi-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm border-info border-2">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        ویژه
+                    </span>
+                    <img src="../project-bootstrap/images/nobia.jpg" class="card-img-top" alt="RedMagic 8">
+                    <div class="card-body">
+                        <h5 class="card-title">ردمیجیک 8 پرو</h5>
+                        <div class="rating mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                            <span class="ms-2">(4.5)</span>
+                        </div>
+                        <p class="card-text">گیمینگ حرفه‌ای - 256GB - 12GB RAM</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price  mb-2">18,900,000 تومان</span>
+                        </div>
+                        <div class="add-to-cart-btn">
+                            <button class="btn btn-primary" title="افزودن به سبد خرید">
+                                <i class="bi bi-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <div class="view-more-btn">
+                    <a href="samsung.html" class="btn-more">
+                        <i class="bi bi-arrow-left"></i>
+                        مشاهده محصولات بیشتر
+                    </a>
+                </div>
+            </div>        </div>
+    </div>
+</section>
+    <!-- Best Sellers -->
+    <section id="top-sellers" class="py-5 bg-light position-relative overflow-hidden">
+        <!-- Wave Background -->
+        <div class="wave-top"></div>
+        <div class="wave-bottom"></div>
+        
+        <div class="container position-relative">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">پرفروش‌ترین محصولات</h2>
+                <p class="text-muted">برترین گوشی‌های سال 2023 بر اساس آمار فروش</p>
+            </div>
+            
+            <div class="ranking-table">
+                <!-- رتبه 1 - شیائومی -->
+                <div class="rank-item rank-1" data-rank="1">
+                    <div class="rank-badge">
+                        <span class="rank-number">1</span>
+                        <div class="crown-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                    </div>
+                    <div class="rank-content">
+                        <div class="rank-image">
+                            <img src="../project-bootstrap/images/sh2.jpg" alt="Xiaomi Redmi Note 12" class="img-fluid">
+                        </div>
+                        <div class="rank-details">
+                            <h3 class="rank-title">شیائومی Redmi Note 12</h3>
+                            <p class="rank-description">
+                                با فروش بیش از 2 میلیون دستگاه در سه ماهه اول سال، این مدل با قیمت مناسب و امکانات فوق‌العاده به پرفروش‌ترین محصول سال تبدیل شده است.
+                            </p>
+                            <div class="rank-stats">
+                                <span class="sales-count"><i class="bi bi-graph-up-arrow"></i> 2.1M+ فروش</span>
+                                <span class="rating"><i class="bi bi-star-fill"></i> 4.3/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- رتبه 2 - سامسونگ -->
+                <div class="rank-item rank-2" data-rank="2">
+                    <div class="rank-badge">
+                        <span class="rank-number">2</span>
+                    </div>
+                    <div class="rank-content">
+                        <div class="rank-image">
+                            <img src="../project-bootstrap/images/s2.jpg".jpg" alt="Samsung Galaxy S23" class="img-fluid">
+                        </div>
+                        <div class="rank-details">
+                            <h3 class="rank-title">سامسونگ Galaxy S23</h3>
+                            <p class="rank-description">
+                                پرچمدار سامسونگ با دوربین 200 مگاپیکسلی و پردازنده قدرتمند Snapdragon 8 Gen 2 جایگاه دوم را به خود اختصاص داده است.
+                            </p>
+                            <div class="rank-stats">
+                                <span class="sales-count"><i class="bi bi-graph-up-arrow"></i> 1.8M+ فروش</span>
+                                <span class="rating"><i class="bi bi-star-fill"></i> 4.7/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- رتبه 3 - اپل -->
+                <div class="rank-item rank-3" data-rank="3">
+                    <div class="rank-badge">
+                        <span class="rank-number">3</span>
+                    </div>
+                    <div class="rank-content">
+                        <div class="rank-image">
+                            <img src="../project-bootstrap/images/app4.jpg" alt="iPhone 14" class="img-fluid">
+                        </div>
+                        <div class="rank-details">
+                            <h3 class="rank-title">اپل iPhone 14</h3>
+                            <p class="rank-description">
+                                آیفون 14 با پردازنده A15 Bionic و سیستم عامل iOS به همراه دوربین‌های پیشرفته در جایگاه سوم قرار گرفته است.
+                            </p>
+                            <div class="rank-stats">
+                                <span class="sales-count"><i class="bi bi-graph-up-arrow"></i> 1.5M+ فروش</span>
+                                <span class="rating"><i class="bi bi-star-fill"></i> 4.8/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- رتبه 4 - نوبیا -->
+                <div class="rank-item rank-4" data-rank="4">
+                    <div class="rank-badge">
+                        <span class="rank-number">4</span>
+                    </div>
+                    <div class="rank-content">
+                        <div class="rank-image">
+                            <img src="../project-bootstrap/images/nobia1.jpg" alt="Nubia RedMagic" class="img-fluid">
+                        </div>
+                        <div class="rank-details">
+                            <h3 class="rank-title">نوبیا RedMagic 8 Pro</h3>
+                            <p class="rank-description">
+                                گوشی گیمینگ حرفه‌ای با صفحه نمایش 165Hz و سیستم خنک‌کننده داخلی که برای گیمرهای حرفه‌ای طراحی شده است.
+                            </p>
+                            <div class="rank-stats">
+                                <span class="sales-count"><i class="bi bi-graph-up-arrow"></i> 900K+ فروش</span>
+                                <span class="rating"><i class="bi bi-star-fill"></i> 4.5/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- رتبه 5 - ویوو -->
+                <div class="rank-item rank-5" data-rank="5">
+                    <div class="rank-badge">
+                        <span class="rank-number">5</span>
+                    </div>
+                    <div class="rank-content">
+                        <div class="rank-image">
+                            <img src="../project-bootstrap/images/vivo.jpg" alt="Vivo X90" class="img-fluid">
+                        </div>
+                        <div class="rank-details">
+                            <h3 class="rank-title">ویوو X90 Pro</h3>
+                            <p class="rank-description">
+                                با دوربین 1 اینچی سونی IMX989 و پردازنده Dimensity 9200، این گوشی تجربه عکاسی بی‌نظیری ارائه می‌دهد.
+                            </p>
+                            <div class="rank-stats">
+                                <span class="sales-count"><i class="bi bi-graph-up-arrow"></i> 750K+ فروش</span>
+                                <span class="rating"><i class="bi bi-star-fill"></i> 4.4/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <div class="view-more-btn">
+                    <a href="top-sellers.html" class="btn-more btn btn-warning">
+                    
+                            <i class="bi bi-trophy"></i>
+                        مشاهده لیست کامل
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">نظرات مشتریان</h2>
+                <p class="text-muted">تجربیات خریداران از محصولات ما</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="../project-bootstrap/images/app3.jpg" class="rounded-circle mb-3" width="80" height="80" alt="کاربر">
+                            <div class="rating mb-3">
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="card-title">رضا محمدی</h5>
+                            <p class="card-text">خرید بسیار خوبی بود. گوشی آیفون 14 پرو واقعاً عالی هستش. کیفیت دوربین فوق‌العاده‌ست.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="../project-bootstrap/images/download.jpg" class="rounded-circle mb-3" width="80" height="80" alt="کاربر">
+                            <div class="rating mb-3">
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-half text-warning"></i>
+                                <i class="bi bi-t bi-star  text-warning"></i>
+                            </div>
+                            <h5 class="card-title"> درسا حسینی</h5>
+                            <p class="card-text">خرید بسیار خوبی بود. گوشی شیائومی 15 اولترا واقعاً عالی هستش. با این دوربین 350مگا پیگسل برید حالشو ببرین.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="../project-bootstrap/images/sh3.jpg" class="rounded-circle mb-3" width="80" height="80" alt="کاربر">
+                            <div class="rating mb-3">
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star  text-warning"></i>
+                            </div>
+                            <h5 class="card-title"> لاله قرایی</h5>
+                            <p class="card-text">   من بعد از دو ماه در نظر ستجی شرکت می کنم مرسی از نمایندگی خوبتون گوشی سامسونگ s24fe بهترین گوشی از برند سامسونگ است </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="../project-bootstrap/images/images (2).jpg" class="rounded-circle mb-3" width="80" height="80" alt="کاربر">
+                            <div class="rating   mb-3 ">
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi bi-t bi-star-fill text-warning"></i>
+                                <i class="bi  bi-t bi-star-fill text-warning"></i>
+                                <i class="bi  bi-t bi-star-fill  text-warning"></i>
+                            </div>
+                            <h5 class="card-title"> امیرحسین گوشی باز</h5>
+                            <p class="card-text">    بهترین گوشی بوده که تا بحال داشتم فقط یکم گرونه اما به آپشن هاش میارزه zte10 proگوشی نوبیا مدل</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="section-footer">
+                <div class="view-more-btn">
+                    <a href="reviews.html" class="btn-more">
+                        <i class="bi bi-arrow-left"></i>
+                        مشاهده لیست کامل
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">آخرین اخبار</h2>
+                <p class="text-muted">تازه‌ترین اخبار دنیای موبایل</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../project-bootstrap/images/images.jpg" class="card-img-top" alt="خبر">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">جدید</span>
+                            <h5 class="card-title">رونمایی از گلکسی Z Fold 5</h5>
+                            <p class="card-text">سامسونگ از جدیدترین گوشی تاشوی خود رونمایی کرد...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm mt-4">ادامه خبر</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-98 shadow-sm">
+                        <img src="../project-bootstrap/images/images (1).jpg" class="card-img-top" alt="خبر">
+                        <div class="card-body">
+                            <span class="badge bg-primary ">جدید</span>
+                            <h5 class="card-title">فروش مستقیم و بدون واسطه گوشی تلفن همراه (ویژه همکار)</h5>
+                            <p class="card-text">اطمینان از تکمیل سبد کالایی فروشگاه از برندهای متنوع، گارانتی معتبر و کد ریجستری...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm mb-2">ادامه خبر</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-98 shadow-sm">
+                        <img src="../project-bootstrap/images/n00072043-b.jpg" class="card-img-top" alt="خبر">
+                        <div class="card-body">
+                            <span class="badge bg-primary ">جدید</span>
+                            <h5 class="card-title">موبایل چه آسیب‌هایی به بدن ما می‌زند؟</h5>
+                            <p class="card-text">پایین نگه داشتن گردن در زاویه ۴۵ درجه، فشاری برابر با ۲۲ کیلوگرم بار را به آن وارد می‌کند...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm mb-2">ادامه خبر</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Us -->
+    <section id="about" class="py-5 bg-light wave-section">
+        <div class="wave wave-top"></div>
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">درباره ژان موبایل</h2>
+                    <p class="lead">ما با بیش از 10 سال تجربه در زمینه فروش گوشی‌های موبایل، همواره سعی کرده‌ایم بهترین محصولات را با گارانتی معتبر به مشتریان عرضه کنیم.</p>
+                    <p>تیم متخصص ما آماده ارائه مشاوره رایگان برای انتخاب بهترین گوشی متناسب با نیازهای شماست. ما فقط فروشنده نیستیم، همراه شما در استفاده از تکنولوژی هستیم.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> ارائه محصولات با گارانتی رسمی</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> پشتیبانی 24 ساعته</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> امکان بازگشت محصول تا 7 روز</li>
+                        <li><i class="bi bi-check-circle-fill text-primary me-2"></i> ارسال رایگان برای خریدهای بالای 5 میلیون تومان</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../project-bootstrap/images/download.png" class="img-fluid rounded shadow" alt="درباره ما">
+                </div>
+            </div>
+        </div>
+        <div class="wave wave-bottom"></div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">تماس با ما</h2>
+                <p class="text-muted">پاسخگوی سوالات شما هستیم</p>
+            </div>
+            
+            <div class="row g-4 " >
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title mt-5">اطلاعات تماس</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-4 mt-4" ><i class="bi bi-geo-alt-fill text-primary me-2" ></i> تهران، خیابان آزادی، پلاک 123</li>
+                                <li class="mb-4"><i class="bi bi-telephone-fill text-primary me-2"></i> 021-12345678</li>
+                                <li class="mb-4"><i class="bi bi-envelope-fill text-primary me-2"></i> info@zhan-mobile.ir</li>
+                                <li class="mb-5"><i class="bi bi-clock-fill text-primary me-2 mt-4"></i> ساعت کاری: 9 صبح تا 9 شب</li>
+                            </ul>
+                            
+                            <div class="social-icons mt-4 ">
+                                <a href="#" class="btn btn-outline-primary btn-sm me-3 "><i class="bi bi-instagram "></i></a>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-3"><i class="bi bi-telegram"></i></a>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-3"><i class="bi bi-whatsapp"></i></a>
+                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">فرم تماس</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">نام کامل</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">ایمیل</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">شماره تماس</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">پیام شما</label>
+                                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">ارسال پیام</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white pt-5 pb-4">
+        <div class="wave wave-top"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-3">ژان موبایل</h5>
+                    <p>فروشگاه تخصصی مقایسه و فروش گوشی‌های موبایل از برندهای معتبر جهانی با گارانتی رسمی</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-telegram fs-4"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-whatsapp fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin fs-4"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">لینک‌های سریع</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white text-decoration-none">صفحه اصلی</a></li>
+                        <li class="mb-2"><a href="#brands" class="text-white text-decoration-none">برندها</a></li>
+                        <li class="mb-2"><a href="#best-sellers" class="text-white text-decoration-none">پرفروش‌ها</a></li>
+                        <li class="mb-2"><a href="#news" class="text-white text-decoration-none">اخبار</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">تماس با ما</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">خدمات مشتریان</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">سوالات متداول</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">رویه بازگرداندن کالا</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">شرایط گارانتی</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">راهنمای خرید</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-3">عضویت در خبرنامه</h5>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="ایمیل شما" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">عضویت</button>
+                    </form>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">© 2025 تمام حقوق محفوظ است. برای ژان موبایل </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">طراحی و توسعه با <i class="bi bi-heart-fill text-danger"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="btn btn-primary btn-lg back-to-top" title="بازگشت به بالا">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
