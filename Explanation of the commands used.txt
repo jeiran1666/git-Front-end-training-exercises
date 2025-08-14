@@ -1,0 +1,25 @@
+این کلاس‌ها و داده‌های مربوط به Bootstrap هستند. در زیر توضیح مختصر هر کدام آمده است:
+data-bs-spy: برای اسکرول اسپای (Scrollspy) استفاده می‌شود و بخش‌های صفحه را هنگام اسکرول ردیابی می‌کند.
+data-bs-target: هدف یک المان (مثل منو یا کاروسل) را برای تعاملات جاوااسکریپتی مشخص می‌کند.
+navbar navbar-expand: ایجاد یک نوار ناوبری (navbar) با قابلیت expand (بازشدن در اندازه‌های مختلف).
+container: یک container برای محتوای داخل navbar ایجاد می‌کند تا محتوا در وسط صفحه قرار گیرد.
+navbar-brand: برای لوگو یا نام سایت در navbar استفاده می‌شود.
+navbar-toggler: دکمه‌ای برای نمایش/مخفی کردن منو در حالت موبایل.
+data-bs-toggle=offcanvas: یک پنل offcanvas (منوی کشویی) را فعال می‌کند.
+navbar-toggler-icon: آیکون همبرگری (سه خط) برای منوی موبایل.
+offcanvas offcanvas-end: یک پنل offcanvas که از سمت راست باز می‌شود.
+offcanvas-header: بخش هدر پنل offcanvas.
+nav-item dropdown: یک آیتم منو با قابلیت dropdown (منوی آبشاری).
+d-flex mt-3 mt-lg-0: یک flexbox با margin-top در اندازه‌های مختلف.
+bi bi-cart3: آیکون سبد خرید از کتابخانه Bootstrap Icons.
+carousel-indicators: نقاط نشان‌دهنده اسلایدهای کاروسل.
+carousel-inner: بخش اصلی اسلایدهای کاروسل.
+carousel-item active: یک اسلاید فعال در کاروسل.
+py-5 bg-light wave-section: یک سکشن با padding عمودی، پس‌زمینه روشن و افکت موج.
+wave wave-top: افکت موجی در بالای سکشن.
+badge bg-info position-absolute m-2: یک نشانه (Badge) با پس‌زمینه آبی و موقعیت مطلق.
+fw-bold:  و برحسته متن با فونت پررنگ (bold).
+product-specs collapse: یک بخش جمع‌شونده (collapse) برای مشخصات محصول.
+list-unstyled: لیست بدون استایل پیش‌فرض (حذف نقطه‌های لیست).
+position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger: یک نشانه گرد با پس‌زمینه قرمز در موقعیت مطلق.
+
